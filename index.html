@@ -16,7 +16,7 @@
 
             .navcontent {
                 background-color: #10243E;
-                height: 50vh;
+                height: 46vh;
                 width: 100vw;
                 color: white;
                 font-family: sans-serif;
@@ -28,7 +28,8 @@
                 margin: auto;
                 font-weight: bold;
                 text-align: center;
-                font-size: 10px;
+                font-size: 8px;
+                margin-top: 5vh;
 
             }
 
@@ -79,6 +80,7 @@
                 align-content: center;
                 justify-content: space-evenly;
                 border-radius: 50px;
+
             }
 
             .nav1 .ul2 li {
@@ -102,12 +104,103 @@
 
                 font-weight: bold;
                 margin: 7px auto;
-                font-size: 20px;
+                font-size: 18px;
                 text-align: center;
                 width: 60vw;
                 text-overflow: ellipsis;
 
 
+            }
+
+            .services {
+                margin: 4vh auto;
+
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr(10);
+                justify-items: center;
+                height: 65vh;
+            }
+
+            .box {
+                background-color: green;
+                text-align: justify;
+                width: 90vw;
+                background-color: whitesmoke;
+                border: 1px solid black;
+                border-radius: 5px;
+                align-content: center;
+                font-size: 13px;
+            }
+
+            .box a {
+                text-decoration: none;
+                margin-left: 10px;
+                color: #10243D;
+            }
+
+            .services .box1 {
+                background-color: #10233D;
+
+
+            }
+
+
+
+
+            .box1 a {
+                color: white;
+
+            }
+
+            .results {
+                font-size: 36px;
+                width: 80vw;
+                margin: 0vh auto 2.5vh auto;
+
+            }
+
+            .resultype li {
+                margin: 1vh auto;
+                width: 85vw;
+                list-style-type: "→";
+                color: green;
+
+
+            }
+
+            .resultype li a {
+
+                text-decoration: none;
+                color: black;
+                font-size: 12px;
+            }
+
+            footer {
+                width: 100vw;
+                height: 40vh;
+
+                background-color: #091525;
+            }
+
+            .footerbox {
+
+                display: grid;
+                grid-template-columns: 1fr;
+                row-gap: 10px;
+                margin-top: 5vh;
+            }
+
+            /* .fbox1{
+                color: #CADAFF;
+                margin-top: 5vh  auto;
+            } */
+            .space {
+                height: 4vh;
+            }
+
+            .fbox {
+                text-decoration: none;
             }
         }
     </style>
@@ -129,6 +222,7 @@
                 <li>GNDU Alumni</li>
 
             </ul>
+
         </div>
 
         <p>"Only University with Category-I status in the states of Punjab, Himachal Pradesh and Chandigarh"</p>
@@ -139,6 +233,47 @@
             </p>
         </div>
     </div>
+    <main>
+        <div class="services">
+
+            <div class="box1 box "><a href="">Examination </a> </div>
+            <div class="box2 box "><a href="">Date Sheet </a> </div>
+            <div class="box3 box "><a href="">Results </a> </div>
+            <div class="box4 box "><a href="">Merit List </a> </div>
+            <div class="box5 box "><a href="">Syllabus </a> </div>
+            <div class="box6 box "><a href="">Apply for Reevaluation </a> </div>
+            <div class="box7 box "><a href="">Result Certification </a> </div>
+            <div class="box8 box "><a href="">Fees for Various Purposes </a> </div>
+            <div class="box9 box "><a href="">Online Absentee Proforma for Centre Superintendents </a> </div>
+            <div class="box10 box "> <a href="">Online Practical Award Submission(OPAS) </a> </div>
+        </div>
+        <section>
+            <h1 class="results">Results</h1>
+            <ul class="resultype">
+                <li><a href="">Semester System New (UG /PG )(11 Digits Roll Number) </a> </li>
+                <li><a href="">Under Graduate (Annual Session) </a> </li>
+                <li><a href="">Post Graduate(Annual Session) </a> </li>
+                <li><a href="">Diplomas/PG Diplomas / Certificates (Annual Session) </a> </li>
+                <li><a href="">Post Graduate (Semester System) </a> </li>
+                <li><a href="">Under Graduate (Semester System) </a> </li>
+                <li><a href="">Ph.d Notifications </a> </li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <div class="space"></div>
+        <div class="footerbox">
+            <div class="fbox fbox1"><a href="">Quick Links </a> </div>
+            <div class="fbox fbox2"><a href="">Download Centre </a> </div>
+            <div class="fbox fbox3"><a href="">TEQIP </a> </div>
+            <div class="fbox fbox4"><a href="">Alumni </a> </div>
+            <div class="fbox fbox5"><a href="">Placements </a> </div>
+            <div class="fbox fbox6"><a href="">Contact Us </a> </div>
+
+
+        </div>
+    </footer>
 </body>
 
 </html>
